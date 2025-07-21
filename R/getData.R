@@ -161,7 +161,7 @@ search_analytics <- function(siteURL,
                              rowLimit = 1000,
                              prettyNames = TRUE,
                              walk_data = c("byBatch","byDate","none"),
-                             dataState = c("final", "all")){
+                             dataState = c("final", "all", "hourly_all")){
 
   if(!googleAuthR::gar_has_token()){
     stop("Not authenticated. Run scr_auth()", call. = FALSE)

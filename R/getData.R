@@ -122,6 +122,7 @@
 #'  \itemize{
 #'    \item "final": [Default] Response will include only final data
 #'    \item "all": Response will include fresh data (they may not be fully calculated)
+#'    \item "hourly_all": Response will include 24 hour data (they may not be fully calculated)
 #'  }
 #'
 #' @examples
